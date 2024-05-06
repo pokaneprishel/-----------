@@ -1,0 +1,53 @@
+* {
+    font-family: "Sofia", cursive;
+}
+
+
+.container {
+    justify-content: center;
+
+    max-width: 1000px;
+    margin: 0 auto;
+   
+}
+
+h1 {
+    text-align: center;
+    font-size: 3rem;
+    font-family: "Sofia", cursive;
+}
+ img {
+        width: 100%;
+        max-width: 700px;
+        display: block;
+        margin: 0 auto;
+ }
+      
+ .buttons {
+    display: flex;
+    justify-content: space-around;
+    font-size: 32px;
+ }     
+
+ button {
+    padding: 1em 1.5em;
+    font-size: 0.7em;
+    background: #ffd8db;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+ }
+
+
+ button:hover {
+    background: #e5c0c3;
+ }
+
+ .Да {
+    background: #adf6c7;
+ }
+
+ .Да:hover {
+    background: #96d7ad;
+ }
